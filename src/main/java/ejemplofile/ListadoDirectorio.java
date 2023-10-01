@@ -23,8 +23,6 @@ public class ListadoDirectorio {
 					String infoFichero = ff.isFile() ? "[ ]" : "[/]";
 					System.out.printf("%6s %s\n", infoFichero, ff.getName());
 				}
-				
-				
 			}
 		} else {
 			System.out.println("La ruta no existe: " + fichero.getAbsolutePath());			
